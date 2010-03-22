@@ -16,7 +16,7 @@
 
 # This is the top-level configuration for a US-configured openeclairMod build
 
-$(call inherit-product, vendor/openeclair/products/openeclair_dream_sapphire_us.mk)
+$(call inherit-product, vendor/openeclair/products/openeclair_dream_sapphire.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += ro.modversion=OpenEclair-v1.2.2 (OpenRemix)
 
